@@ -27,13 +27,3 @@ const GenerateMainPage = () => {
 export default GenerateMainPage
 
 
-
-
-// const MainPage extends Component {
-//   constructor(props) {
-//     super(props)
-//     this.state = {
-
-//     }
-//   }
-// }

@@ -4,6 +4,8 @@ import './App.css';
 
 import GenerateMainPage from './components/main_page/main_page.jsx'
 import GenerateHeader from "./components/header/header.jsx"
+import GenerateRegistrationPage from "./components/registration_page/registration_page.jsx"
+import GenerateSessionPage from "./components/session_page/session_page.jsx"
 
 
 class App extends Component {
@@ -22,7 +24,8 @@ class App extends Component {
         </p>
         <GenerateHeader />
         <GenerateMainPage />
-
+        <GenerateRegistrationPage />
+        <GenerateSessionPage />
       </div>
     );
   }
